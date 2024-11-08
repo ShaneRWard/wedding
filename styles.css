@@ -1,0 +1,29 @@
+html {
+    border: 2px black dashed;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    border: 2px red dashed;
+}
+
+header {
+    border: 2px blue dashed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div {
+    border: 2px pink dashed;
+    padding: 20px;
+    background-color: aqua;
+}
+
+menu {
+    border: 2px green dashed;
+}
+
+
