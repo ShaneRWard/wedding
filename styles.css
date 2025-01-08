@@ -1,15 +1,21 @@
 html {
-    border: 2px black dashed;
-    height: 100%;
-    width: 100%;
+    border: 2px yellow dashed;
+    background-color: #282B31;
+    /* height: 100%; */
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
 }
 
 body {
+    /* width: 100%; */
     border: 2px red dashed;
+    padding: 0%;
+    margin: 0;
 }
 
 header {
-    border: 2px blue dashed;
+    /* border: 2px blue dashed; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,8 +23,65 @@ header {
     padding: 0;
 }
 
-nav {
-    border: 2px green dashed;
+header h1 {
+    font-family: "Gorgeous Serif Font";
+    color: rgb(246, 238, 234);
 }
 
+nav {
+    /* border: 2px green dashed; */
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(246, 238, 234);
+    display: flex;
+    justify-content: center;
+}
 
+nav a {
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(246, 238, 234);
+}
+
+#photo_container {
+    border: 2px white dashed;
+
+}
+
+img {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2, h3, p {
+    color: rgb(246, 238, 234);
+}
+
+.date {
+    font: 3rem sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+section h2, h3, p {
+    color: rgb(246, 238, 234);
+}
+
+footer {
+    border: 2px orange dashed;
+    height: 7em;
+}
