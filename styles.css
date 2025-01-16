@@ -51,14 +51,14 @@ nav a {
 
 } */
 
-img {
-    width: 100%;
+main img {
+    max-width: 100%;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
 main {
-    width: 10 0%;
+    width: 100 vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,18 +87,28 @@ main h1, h2, h3, p {
     width: 20rem;
 }
 
+/* .proposal {
+    margin: 20rem;
+    height: auto;
+    width: auto;
+} */
+
 section {
     /* border: 2px lime dashed; */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 4em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin: auto;
 }
 
 section h2, h3, p {
     color: rgb(246, 238, 234);
+}
+
+section img {
+    max-width: 70%;
+    height: auto;
 }
 
 footer {
