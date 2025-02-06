@@ -32,3 +32,19 @@ Points to make
 * Food and drinks that will be served
 * Other rules/requests
 * Contact information
+
+Bugs to work out
+* Margin or padding of text in smaller viewports
+* Get Nav Bar to fit in smaller viewports
+* Change fonts
+* Write text for The Proposal
+
+
+Potential Additions
+* Hover Styling for Nav Bar links
+* Rotating gallery of photos on main page
+* Count-down clock
+* Find a way to change Cash-App picture
+
+
+The Proposal

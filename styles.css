@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mea+Culpa&family=Meow+Script&family=Rouge+Script&display=swap');
 
-html {
+html body {
     /* border: 2px yellow dashed; */
     background-color: #282B31;
     /* height: 100%; */
@@ -9,17 +9,10 @@ html {
     margin: 0;
 } 
 
-body {
-    /* width: 100%; */
-    /* border: 2px red dashed; */
-    padding: 0%;
-    margin: 0;
-}
-
 header {
     /* border: 2px blue dashed; */
     font-family: "Meow Script", serif;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -27,17 +20,31 @@ header {
 }
 
 header h1 {
-    font-family: "Gorgeous Serif Font";
+    min-width: 40%;
+    font-family: "Meow Script", serif;
+    /* font-family: "Imperial Script", serif; */
+    /* font-family: "Mea Culpa", serif; */
+    /* font-family: "Rouge Script", serif; */
+    font-weight: 400;
+    font-size: 8vw;
+    font-style: normal;
     color: rgb(246, 238, 234);
 }
 
 nav {
     /* border: 2px green dashed; */
-    overflow: hidden;
-    white-space: nowrap;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
     color: rgb(246, 238, 234);
     display: flex;
     justify-content: center;
+    max-width: 100%;
+}
+
+nav ul {
+    /* border: 2px purple dashed; */
+    margin: 2vw;
+    padding: 0;
 }
 
 nav a {
@@ -46,10 +53,12 @@ nav a {
     color: rgb(246, 238, 234);
 }
 
-/* #photo_container {
-    border: 2px white dashed;
-
-} */
+main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 main img {
     max-width: 100%;
@@ -57,17 +66,10 @@ main img {
     margin-bottom: 2rem;
 }
 
-main {
-    width: 100 vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 main h1, h2, h3, p {
     color: rgb(246, 238, 234);
     text-align: center;
-    margin: 2rem 10rem 3rem;
+    margin: 2rem 5rem 2rem;
 }
 
 .date {
@@ -86,12 +88,6 @@ main h1, h2, h3, p {
 .app_link {
     width: 20rem;
 }
-
-/* .proposal {
-    margin: 20rem;
-    height: auto;
-    width: auto;
-} */
 
 section {
     /* border: 2px lime dashed; */
