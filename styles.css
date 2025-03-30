@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Meow Script";
     src: url('./MeowScript-Regular.ttf');
-  }
+}
 
 html body {
     /* border: 2px yellow dashed; */
@@ -73,7 +73,8 @@ main h1, h2, h3, p {
 }
 
 .date {
-    font: 3rem sans-serif;
+    font: 4.5vh sans-serif;
+    text-wrap: nowrap;
 }
 
 .outside_link a {
@@ -94,12 +95,20 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4em;
-    margin: auto;
+    margin: 3em 2em;
 }
 
-section h2, h3, p {
+section h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
     color: rgb(246, 238, 234);
+}
+
+section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: rgb(246, 238, 234);
+    width: 90%;
 }
 
 section img {
